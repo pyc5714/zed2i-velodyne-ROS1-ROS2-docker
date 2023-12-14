@@ -1,6 +1,8 @@
 ## reference 
-[zed-docker](:https://github.com/stereolabs/zed-docker)
-[zed2i docker hub](https://hub.docker.com/r/stereolabs/zed/)
+[zed-docker](https://github.com/stereolabs/zed-docker) : zed-docker 관련 공식 레포지토리
+
+[zed2i docker hub](https://hub.docker.com/r/stereolabs/zed/) 
+
 "4.0-gl-devel-cuda11.4-ubuntu20.04" 이미지를 기반으로 컨테이너 생성
 
 
