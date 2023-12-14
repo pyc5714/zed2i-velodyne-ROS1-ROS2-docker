@@ -12,16 +12,16 @@ docker pull yechanpark5714/zed2i_velodyne_setting_ros1:latest
 
 terminal 1 (velodyne)
 ```
-docker exec -it 5gamm_sensor_setting_ros1 /bin/bash 
+docker exec -it sensor_setting_ros1 /bin/bash 
 source /opt/ros/noetic/setup.bash
-source /home/5gamm_sensor_setting_ros1/devel/setup.bash
+source /home/sensor_setting_ros1/devel/setup.bash
 roslaunch velodyne_pointcloud VLP16_points.launch
 ```
 
 terminal 2 (zed2i)
 ```
-docker exec -it 5gamm_sensor_setting_ros1 /bin/bash 
+docker exec -it sensor_setting_ros1 /bin/bash 
 source /opt/ros/noetic/setup.bash
-source /home/5gamm_sensor_setting_ros1/devel/setup.bash
+source /home/sensor_setting_ros1/devel/setup.bash
 roslaunch zed_wrapper zed2i_amm.launch
 ```
